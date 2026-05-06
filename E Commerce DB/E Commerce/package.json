@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-db",
+  "version": "1.0.0",
+  "description": "MongoDB Database for E-Commerce Application",
+  "main": "db/config/connection.js",
+  "scripts": {
+    "seed": "node db/seeds/seed.js",
+    "create-indexes": "node db/indexes/createIndexes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "ecommerce",
+    "database"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {}
+}
